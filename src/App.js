@@ -7,8 +7,10 @@ function App() {
       <Header />
       <AboutMe />
       <Education />
-      <Projects />
       <Skills />
+      
+      <Projects />
+     
       <Work />
       <Footer />
     </div>
@@ -58,7 +60,7 @@ function AboutMe() {
         <div className="p-2">
           <img
             className="profile"
-            src="https://lh3.googleusercontent.com/a/ACg8ocIK_M5QLSnK0qFDVzdLS6oa_yKOfhTr10zh7R0xqBDjs5Cp5iYrP75UG3e8-8jcTH52AvUU9k9yxHWTTJnKLq2IlfdDndFy=s396-c-no"
+            src="https://lh3.googleusercontent.com/a/ACg8ocKfrGoREdlpU-4J9wZszF2NrFmwa-iani7JC-1odz1oomx_gIvKREzaBJKWuuvUE3XXJcDecw655fZer-8WWMUaZgWNu-dC=s360-c-no"
             alt="..."
           />
         </div>
@@ -77,6 +79,7 @@ function AboutMe() {
   );
 }
 
+
 function Education() {
   return (
     <div className="container1">
@@ -92,6 +95,39 @@ function Education() {
   );
 }
 
+function Skills() {
+  return (
+    <div className="container3">
+      <h2><u>SKILLS</u></h2>
+      <br />
+      <br />
+      <div className="d-flex flex-row mb-3">
+        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div className="progress-bar" style={{ width: '75%' }}>React</div>
+        </div>
+        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div className="progress-bar" style={{ width: '65%' }}>Mongodb</div>
+        </div>
+      </div>
+      <br /><br />
+      <div className="d-flex flex-row mb-3">
+        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div className="progress-bar" style={{ width: '55%' }}>Node</div>
+        </div>
+        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div className="progress-bar" style={{ width: '50%' }}>Express</div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div className="d-flex flex-row mb-3">
+        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div className="progress-bar" style={{ width: '75%' }}>Mysql</div>
+        </div>
+      </div>
+    </div>
+  );
+}
 function Projects() {
   return (
     <div className="container2">
@@ -158,39 +194,39 @@ function Projects() {
   );
 }
 
-function Skills() {
-  return (
-    <div className="container3">
-      <h2><u>SKILLS</u></h2>
-      <br />
-      <br />
-      <div className="d-flex flex-row mb-3">
-        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-          <div className="progress-bar" style={{ width: '75%' }}>React</div>
-        </div>
-        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-          <div className="progress-bar" style={{ width: '65%' }}>Mongodb</div>
-        </div>
-      </div>
-      <br /><br />
-      <div className="d-flex flex-row mb-3">
-        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-          <div className="progress-bar" style={{ width: '55%' }}>Node</div>
-        </div>
-        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-          <div className="progress-bar" style={{ width: '50%' }}>Express</div>
-        </div>
-      </div>
-      <br />
-      <br />
-      <div className="d-flex flex-row mb-3">
-        <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-          <div className="progress-bar" style={{ width: '75%' }}>Mysql</div>
-        </div>
-      </div>
-    </div>
-  );
-}
+// function Skills() {
+//   return (
+//     <div className="container3">
+//       <h2><u>SKILLS</u></h2>
+//       <br />
+//       <br />
+//       <div className="d-flex flex-row mb-3">
+//         <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+//           <div className="progress-bar" style={{ width: '75%' }}>React</div>
+//         </div>
+//         <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+//           <div className="progress-bar" style={{ width: '65%' }}>Mongodb</div>
+//         </div>
+//       </div>
+//       <br /><br />
+//       <div className="d-flex flex-row mb-3">
+//         <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+//           <div className="progress-bar" style={{ width: '55%' }}>Node</div>
+//         </div>
+//         <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+//           <div className="progress-bar" style={{ width: '50%' }}>Express</div>
+//         </div>
+//       </div>
+//       <br />
+//       <br />
+//       <div className="d-flex flex-row mb-3">
+//         <div className="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+//           <div className="progress-bar" style={{ width: '75%' }}>Mysql</div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
 function Work() {
   return (
